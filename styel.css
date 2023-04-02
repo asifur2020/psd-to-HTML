@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fangsong';
+}
+.containt.pt-3 {
+    border-top: 7px solid #ff8b6b;
+}
+.containt {   
+    display: flex;
+    justify-content: right;
+    
+    color: rgb(160, 157, 157);
+    
+
+}
+.navbar{
+    border-bottom: 2px solid rgb(189, 187, 187);
+    border-top: 2px solid rgb(189, 187, 187);;
+    
+}
+/* .navbar-nav li {
+    border-right: 2px solid #a19c9c;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    padding-right: 17px;
+
+    
+}
+.navbar-nav li:last-child{
+    border-right: none;
+} */
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+    position: relative;  
+    
+}
+.navbar-nav li a:hover{
+    color: rgb(238, 68, 68);
+}
+
+.card{
+    border: none !important;
+}
+.card-containt{
+    display: flex;
+    padding-top: 19px;
+    column-gap: 26px;
+    padding-bottom: 40px;
+}
+.card-body{
+    padding: 2rem 2rem !important;
+    background-color: #eaeaea;
+}
+
+.card-body h3{
+    font-style: italic;
+}
+.card-body h3:hover{
+    color:red;
+}
+.card-text{
+    font-style:Georgia;
+}
+.loginpage{
+    padding: 1rem !important;
+    display: flex;
+    gap: 7rem;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    background: #f0f0f0;
+  
+}
+
+.text {
+    padding-left: 6rem;
+    
+}
+.text h4{
+    font-style: italic;
+    padding-top: 15px;
+    font-size: 2.5rem !important;
+    padding-left: 48px;
+    color: #8e8e8e;
+}
+.text p{
+    font-family: 'Indie Flower', cursive;
+}
+
+form {
+    padding-top: 3rem;
+}
+input#fname {
+    color: #63636385;
+    background-color: #e8e8e8;
+    border-radius: 9px;
+    padding-left: 10px;
+    padding-right: 80px;
+    box-shadow: 0px 0px 5px 1px;
+}
+input[type="submit"]{
+    color: #36363685;
+    background-color:#e4e4e485;
+    border-radius: 9px;
+    padding-left: 19px;
+    padding-right: 19px;
+    box-shadow: 0px 0px 5px 1px;
+   
+}
+input[type="submit"]:hover{
+ color: #ebcdc6;
+}
+
+.project-row{
+    display: flex;
+    width: 65%;
+    gap: 2rem;
+    border: none !important;
+    position: absolute;
+    right: 7rem;
+    top: 56rem; 
+}
+.sp{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+.sp:hover{
+    color: red;
+}
+
+.footer-containt{
+    position: absolute;
+    top:78rem;
+    background-color: #3b3b3b;
+}
+.form {
+    padding-top: 1rem !important;
+}
+.copy{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+
